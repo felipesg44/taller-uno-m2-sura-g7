@@ -56,3 +56,10 @@ let asientos = ["Ocupado", "Libre", "Libre", "Libre", "Ocupado"];
 asientos.fill("Reservado", 1, 4);
 
 console.log(asientos);
+
+//Ejercicio 8 
+let productos = ["Monitor", "Teclado", "Mouse Roto", "Webcam"];
+
+productos.splice(2, 1, "Mouse Nuevo");
+
+console.log(productos);
